@@ -4,14 +4,6 @@ variable "aws_region" {
   description = "Sets the aws region"
 }
 
-variable "access_key" {
-  default = "AKIARQYDZHD2JKSTN7DA"
-}
-
-variable "secret_key" {
-  default = "SpfrC3k9EuQg5PRWfy/2lk11f/vEgZDDlgrMszdu"
-}
-
 variable "cidr_block" {
   description = "cidr block for the VPC ID"
   default     = "10.0.0.0/16"
